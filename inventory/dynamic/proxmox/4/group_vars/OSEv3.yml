@@ -2,7 +2,6 @@
 ansible_ssh_user: root
 openshift_deployment_type: origin
 openshift_master_identity_providers: [{'name': 'htpasswd_auth', 'login': 'true', 'challenge': 'true', 'kind': 'HTPasswdPasswordIdentityProvider', 'filename': '/etc/origin/master/htpasswd'}]
-containerized: true
 openshift_release: v3.6.1
 openshift_image_tag: v3.6.1
 openshift_master_default_subdomain: app.lab
